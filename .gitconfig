@@ -1,0 +1,14 @@
+[user]
+	email = ora@martindale.org
+	name = Ora Martindale
+[core]
+	pager = less -FRXS
+[color]
+	ui = true
+[merge]
+	tool = vimdiff
+[alias]
+	praise = blame
+	undo = reset --soft HEAD^
+	mine = log --author='Ora Martindale'
+	lg = log --color --graph --pretty=format:'%C(yellow)%h%Creset %C(yellow)%d%Creset %s %Cgrean(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
